@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font */
+html {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
 body {
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
