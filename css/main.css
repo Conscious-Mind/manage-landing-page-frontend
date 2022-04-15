@@ -490,9 +490,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 1370px) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1370px;
+    max-width: 1440px;
   }
 }
 
@@ -579,8 +579,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 24rem;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
+.max-w-screen-xl {
+  max-width: 1440px;
 }
 
 .flex-1 {
@@ -696,6 +696,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-brightRedSupLight {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
 .bg-veryLightGray {
